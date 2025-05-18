@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cássio Emanuel - Portfólio</title>
+  <style>
+    /* Reset e configurações básicas */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fdfdfd;
+      color: #2c3e50;
+    }
+
+    header {
+      background: #0a3d62;
+      color: white;
+      padding: 25px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    nav {
+      margin-top: 12px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffdd59;
+    }
+
+    section {
+      padding: 70px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #0a3d62;
+      margin-bottom: 25px;
+      border-bottom: 2px solid #0a3d62;
+      padding-bottom: 10px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    input, textarea {
+      padding: 12px;
+      font-size: 1em;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      outline-color: #0a3d62;
+    }
+
+    input[type="submit"] {
+      background-color: #0a3d62;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #145ca8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #0a3d62;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cássio Emanuel Barros Brasil</h1>
+    <nav>
+      <a href="#sobre">Sobre mim</a>
+      <a href="#formacao">Formação</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section id="sobre">
+    <h2>Sobre mim</h2>
+    <p>Olá! Meu nome é Cássio Emanuel.  Gosto muito de jogar jogos competitivos, ouvir música, viajar ,assistir filmes e jogar futebol. Estou sempre em busca de aprender algo novo e evoluir, tanto nos desafios do dia a dia quanto na área da tecnologia.</p>
+  </section>
+
+  <section id="formacao">
+    <h2>Formação</h2>
+    <p>Tenho formação básica completa e conhecimento intermediário em inglês. Estou em fase de desenvolvimento das minhas habilidades com programação e buscando sempre evoluir nas áreas de tecnologia.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfólio</h2>
+    <p>No momento, ainda não tenho projetos finalizados para exibir aqui. Em breve esta seção será atualizada com meus primeiros trabalhos e exercícios. aguarde!</p>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <form>
+      <input type="text" placeholder="Nome" required>
+      <input type="email" placeholder="Email" required>
+      <textarea rows="5" placeholder="Mensagem" required></textarea>
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Cássio Emanuel Barros Brasil. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
